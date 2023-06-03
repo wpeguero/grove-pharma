@@ -10,3 +10,5 @@ open(FASTA.Reader, "data/MN908947.txt") do reader
 	end
 end
 
+twomer = DNAMer{3}(covid_seq)
+println(twomer)

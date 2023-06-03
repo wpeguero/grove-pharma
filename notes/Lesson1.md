@@ -1,5 +1,4 @@
 # Where in the Genome Does Replication Begin?
-
 ## 1.1 A Journey of a Thousand Miles...
 
 - **Replication origin**
@@ -97,3 +96,26 @@ GAT --> 1
 TAT --> 2
 TCC --> 1
 TAG --> 1
+
+### Stop and Think Section
+
+A figure of the most frequent k-mers in the ori from Vibrio cholerae is shown
+
+**Question**: Do any of the counts in the figure seem surprisingly large?
+
+**Response**: The 3-mer *tga* seems to be surprisingly large.
+
+### Stop and Think Section
+
+For example, the 9-mers appears three times in the ori of vibrio cholerae (would we consider this to be surprising?). In this case, bacteria contains DnaA boxes that are 9 nucleotides long (aka this is a 9-mer).
+- Based on probability, it is very unlikely to find 1 repeated 9-mer in the ori
+    - Even less likely, is the probability of finding multiple repeating 9-mers (up to 4 repeating 9-mer that each show up 3 times).
+
+- From the information above, we can conclude that 1 of the 4 most repeating 9-mers is the Dna Box of the ori.
+
+**Question**: Is any one of the four most frequent 9-mers in the ori of Vibrio cholerae *more surprising* than the others?
+
+**Response**: There is 1 out of the 4 9-mers that possesses less T nucleotides than the other 9-mers.
+
+## 1.4 Some Hidden Messages are More Surprising than Others
+
